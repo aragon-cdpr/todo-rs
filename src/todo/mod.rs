@@ -1,7 +1,5 @@
 use std::fmt::{Debug, Result};
-use ratatui::{
-    text::Text
-};
+use ratatui::text::Text;
     
 pub struct Todo {
     message: String,
