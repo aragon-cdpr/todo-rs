@@ -18,7 +18,7 @@ use ratatui::{
 fn main() -> Result<()> {
     let mut todos: Vec<Todo> = vec![
         Todo::new(
-            String::from("windows sucks"), 
+            String::from("windows doesn't suck(lie)"), 
             false
         ),
         Todo::new(
