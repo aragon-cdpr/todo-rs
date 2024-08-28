@@ -37,7 +37,7 @@ impl Debug for Todo {
 impl From<&Todo> for Text<'static> {
     fn from(todo: &Todo) -> Text<'static> {
         Text::from(
-            format!("- [{}] {}", 
+            format!("  [{}] {}", 
                 if todo.is_finished() { "x" } else { " " }, 
                 todo.get_message()
             )
